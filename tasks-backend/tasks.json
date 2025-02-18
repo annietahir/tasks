@@ -1,0 +1,21 @@
+[
+    {
+    "id": 1,
+    "title": "Create new landing page",
+    "description": "Create a new landing page to display user's data",
+    "status": "To Do"
+    },
+    {
+    "id": 2,
+    "title": "Update error handling",
+    "description": "Update how errors are handled when retreiving user data",
+    "status": "In Progress"
+    },
+    {
+        "id": 3,
+        "title": "Update unit tests",
+        "description": "Update unit tests for retrieving user profile information",
+        "status": "In Progress"
+        }
+    ]
+    
