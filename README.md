@@ -4,8 +4,8 @@ An application using Go and Angular.
 
 Project Structure
 
-- tasks-backend - Go-based backend
-- tasks-frontend - Angular-based frontend
+tasks-backend - Go backend
+tasks-frontend - Angular frontend
 
 Prerequisites
 
@@ -22,14 +22,12 @@ Follow the steps below to set up and run both the frontend and backend.
 
 1. Clone repo
 
-Clone the repository to your local machine:
-
-git clone https://github.com/annietahir/task-manager-application.git
-cd task-manager-application
+'git clone https://github.com/annietahir/task-manager-application.git'
+'cd task-manager-application'
 
 2. Navigate to tasks-backend
 
-3. If you don't already, install any Go dependencies.
+3. If you don't already, install any Go dependencies with 'go mod tidy'
 
 4. Run the server with go run main.go. This should run on http://localhost:3000
 
