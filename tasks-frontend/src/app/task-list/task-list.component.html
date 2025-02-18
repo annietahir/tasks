@@ -1,0 +1,17 @@
+<h2>Task List</h2>
+
+<div *ngIf="errorMessage">
+  <p class="error">{{ errorMessage }}</p>
+</div>
+
+<ul *ngIf="!isLoading && tasks.length; else loading">
+  <li *ngFor="let task of tasks">
+    <a [routerLink]="['/task', task.id]">{{ task.title }}</a> - {{ task.status }}
+  </li>
+</ul>
+
+<p *ngIf="!isLoading && !tasks.length && !errorMessage">No tasks found.</p>
+
+<ng-template #loading>
+  <p>Loading tasks...</p>
+</ng-template>

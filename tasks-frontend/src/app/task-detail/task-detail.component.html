@@ -1,0 +1,15 @@
+<button (click)="goBack()">Go back</button>
+
+<div *ngIf="errorMessage">
+  <p class="error">{{ errorMessage }}</p>
+</div>
+
+<div *ngIf="!isLoading && task; else loading">
+  <h3>{{ task.title }}</h3>
+  <p>{{ task.description }}</p>
+  <strong>Status:</strong> {{ task.status }}
+</div>
+
+<ng-template #loading>
+  <p>Loading task details...</p>
+</ng-template>
