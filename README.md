@@ -39,6 +39,6 @@ cd task-manager-application
 
 7. The application should now be running on http://localhost:4200
 
-8. You will now see a basic interface displaying a list of tasks which can be clicked indivdually to see their full details. There is also a go back button to take you back to the list.
+8. You will now see a basic interface displaying a list of tasks which can be clicked indivdually to see their full details. There is also a go back button to take you back to the list of tasks.
 
 
